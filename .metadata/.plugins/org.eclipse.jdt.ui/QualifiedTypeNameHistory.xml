@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="vas.util.EncryptMsisdn"/>
+    <fullyQualifiedTypeName name="vas.util.TokenSessionEntity"/>
+    <fullyQualifiedTypeName name="java.net.InetSocketAddress"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
+    <fullyQualifiedTypeName name="com.google.gson.stream.JsonReader"/>
+    <fullyQualifiedTypeName name="com.sun.xml.ws.api.addressing.WSEndpointReference.Metadata"/>
+    <fullyQualifiedTypeName name="org.apache.tika.config.TikaConfig"/>
+    <fullyQualifiedTypeName name="org.apache.tika.io.TikaInputStream"/>
+    <fullyQualifiedTypeName name="org.apache.tika.metadata.Metadata"/>
+    <fullyQualifiedTypeName name="javax.sound.sampled.AudioFormat.Encoding"/>
+    <fullyQualifiedTypeName name="vas.util.InitMQ"/>
+    <fullyQualifiedTypeName name="vas.mq.util.ConstantsUtil"/>
+</qualifiedTypeNameHistroy>
