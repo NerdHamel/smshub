@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="true">
+
+        <appender name="MQLOGS" class="org.apache.log4j.rolling.RollingFileAppender">
+                <!-- The active file to log to -->
+                <param name="file" value="mqlogs/mqLogging.log" />
+                <param name="append" value="true" />
+                <param name="encoding" value="UTF-8" />
+
+                <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                        <!-- The file to roll to, this is a fairly intelligent parameter, if the file
+                        ends in .gz, it gzips it, based on the date stamp it rolls at that time, 
+                        default is yyyy-MM-dd, (rolls at midnight)
+                        See: http://logging.apache.org/log4j/companions/extras/apidocs/org/apache/log4j/rolling/TimeBasedRollingPolicy.html -->
+                        <!-- <param name="FileNamePattern" value="C:/log/testlog.%d{yyyy-MM-dd_HH-mm}.TMP" /> -->
+                        <param name="FileNamePattern" value="mqlogs/perhour/mqLogging.%d{yyyy-MM-dd-HH}.log" />
+                </rollingPolicy>
+
+                <layout class="org.apache.log4j.PatternLayout">
+                        <!-- The log message pattern -->
+                        <param name="ConversionPattern" value="%m%n" />
+                </layout>
+        </appender>
+       
+        <!-- Debugging loggers -->
+        
+        <!-- Uncomment to enable debug on calpoly code only -->
+        <!--
+        <logger name="edu.calpoly">
+                <level value="debug"/>
+                <appender-ref ref="NGSDP" />
+        </logger>
+        -->
+        
+        <root>
+                <priority value="info" />
+                <appender-ref ref="MQLOGS" />
+        </root>
+        
+</log4j:configuration>

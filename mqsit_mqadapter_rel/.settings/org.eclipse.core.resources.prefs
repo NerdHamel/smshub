@@ -1,0 +1,10 @@
+#Wed Jan 08 20:41:04 AST 2014
+eclipse.preferences.version=1
+encoding//src/vas/mq/adapter/MQAdapter.java=UTF-8
+encoding//src/vas/mq/adapter/MQStringMessage.java=UTF-8
+encoding//src/vas/mq/adapter/StringMsgTransceiver.java=UTF-8
+encoding//src/vas/mq/connection/MQConnectionManager.java=UTF-8
+encoding//src/vas/mq/handler/MQHandler.java=UTF-8
+encoding//src/vas/mq/util/ListedHashMap.java=UTF-8
+encoding//src/vas/mq/util/MQLogging.java=UTF-8
+encoding//src/vas/mq/util/PoolSwitcher.java=UTF-8

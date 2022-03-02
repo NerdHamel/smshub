@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="ojdbc14.jar"/>
+	<classpathentry kind="lib" path="xml.jar"/>
+	<classpathentry kind="lib" path="MQAdapter-3.0.jar"/>
+	<classpathentry kind="lib" path="javax.json-api-1.0.jar"/>
+	<classpathentry kind="lib" path="trove.jar"/>
+	<classpathentry kind="lib" path="webservices-tools.jar"/>
+	<classpathentry kind="lib" path="json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="MobilyCustomerEncryption.jar"/>
+	<classpathentry kind="lib" path="MobilyCommons-3.0.jar"/>
+	<classpathentry kind="lib" path="commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="commons-logging-1.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mqsit_mqadapter_rel"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mqsit_mqutil_rel"/>
+	<classpathentry kind="lib" path="/mqsit_mqutil_rel/apache-log4j-extras-1.1.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.commonservices.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.defaultconfig.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.headers.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.jmqi.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.jms.Nojndi.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.pcf.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.postcard.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.soap.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mq.tools.ras.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mqbind.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mqetclient.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/com.ibm.mqjms.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqadapter_rel/lib/jbossall-client.jar"/>
+	<classpathentry kind="lib" path="/mqsit_mqutil_rel/log4j-1.2.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
