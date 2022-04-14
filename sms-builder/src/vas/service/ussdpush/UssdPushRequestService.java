@@ -1,17 +1,12 @@
 package vas.service.ussdpush;
 
-import vas.mq.adapter.MQStringMessage;
 import vas.mq.logging.MQLog4jLogging;
 import vas.mq.util.ConstantsUtil;
-import vas.util.DBUtil;
 import vas.util.InitMQ;
-import vas.util.ParserUtil;
-
-import com.ibm.mq.MQException;
 
 public class UssdPushRequestService extends Thread {
 	public void run() {
-		MQStringMessage requestMSG = null;
+		com.mobily.adapters.mqadapter.MQStringMessage requestMSG = null;
 		UssdPushServiceBean bean = null;
 		String strMsg="";
 		while (true) {
@@ -23,6 +18,8 @@ public class UssdPushRequestService extends Thread {
 				requestMSG = InitMQ.getMQHandler().listenToMQ(
 						ConstantsUtil.VC_SMS_RECEIVER);
 				System.out.println("Got the message! " + requestMSG.toString());
+				
+				
 
 				// byte[] b = new byte[requestMSG.getMQMessage()
 				// .getMessageLength()];

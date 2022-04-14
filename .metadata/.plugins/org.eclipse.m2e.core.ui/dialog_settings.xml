@@ -69,7 +69,28 @@
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item key="width" value="480"/>
 		<item key="height" value="494"/>
-		<item key="x" value="301"/>
-		<item key="y" value="55"/>
+		<item key="x" value="637"/>
+		<item key="y" value="219"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="mqsit_mqadapter_rel"/>
+			<item value="mqsit_mqutil_rel"/>
+			<item value="sms-builder"/>
+		</list>
+		<list key="name">
+			<item value="MQAdapter"/>
+			<item value="mqUtil"/>
+			<item value="smsReceiver"/>
+			<item value="sms"/>
+		</list>
+		<list key="artifactId">
+			<item value="mqsit_mqadapter_rel"/>
+			<item value="mqsit_mqutil_rel"/>
+			<item value="sms-builder"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

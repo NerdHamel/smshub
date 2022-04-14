@@ -228,7 +228,7 @@ public class HttpDAPIDistributer
     public static void main(String a[])
     {
         HttpDAPIDistributer aa = new HttpDAPIDistributer();
-        aa.getAuthorizetoken("966545296279");
+        aa.postResponse("966545296279", "22","333");
         
         String s="DIZsxy01ylZVm1U+D99tcubrlrCT8GFHBRswBPGVT2OlIlM1l342Lv3cvtToTRA0KVkwhXVrDAeIP9/F" +
 "S0Vmsnp1qbE4zPqb2SHgEfC+geberpdp5t0QGVGvRl5d34WZ4i3H+OdEtRCkis7dAyPmBXgb7YrLBZov" +
@@ -239,10 +239,7 @@ public class HttpDAPIDistributer
         System.out.println(s);
     }
 
-    private String postResponse(String msisdn, String _2, String _3, String s)
-    {
-        return null;
-    }
+  
 
     public String postResponse(String msisdn, String input, String legacyTargetCode)
     {
@@ -253,16 +250,17 @@ public class HttpDAPIDistributer
         {
             JSONObject object = new JSONObject();
             JSONObject dataJson = new JSONObject();
-            url = "https://api.mobily.com.sa/apis/endpoint-app.cognigy.ai";
+            
+            url = "https://endpoint-app.cognigy.ai/8e37f22cbf53512ebc2c43cb469755da88bbb6c4d27fdc8a4b761273c3561a1f";
             System.out.println((new StringBuilder()).append("inside url---------").append(url).toString());
             HttpPost post = new HttpPost(url);
             object.put("sessionId", (msisdn));
             object.put("userId", "sms_test");
             object.put("data", dataJson);
             object.put("text", input != null ? ((Object) (input)) : "hi");
-            TokenSessionEntity accessToken = getAuthorizetoken2(msisdn);
-            String token = accessToken.getToken();
-            System.out.println((new StringBuilder()).append("generated token").append(token).toString());
+          //  TokenSessionEntity accessToken = getAuthorizetoken2(msisdn);
+            //String token = accessToken.getToken();
+         //   System.out.println((new StringBuilder()).append("generated token").append(token).toString());
            // dataJson.put("isFromUSSD", "true");
             //dataJson.put("DAPIToken", getAuthorizetoken(msisdn).getToken());
             dataJson.put("sourceSystem", "SMS");
@@ -270,7 +268,8 @@ public class HttpDAPIDistributer
             
             String message = object.toString();
             post.setHeader("Content-Type", "application/json");
-            post.setHeader("Authorization", (new StringBuilder()).append("Bearer ").append(token).toString());
+       //     post.setHeader("Authorization", (new StringBuilder()).append("Bearer ").append(token).toString());
+           
             post.setHeader("Channel", "USSD");
             post.setEntity(new StringEntity(message, "UTF8"));
             HttpResponse response = client.execute(post);

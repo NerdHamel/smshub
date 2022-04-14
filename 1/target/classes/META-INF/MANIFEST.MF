@@ -1,5 +1,8 @@
 Manifest-Version: 1.0
-Built-By: aymanalbokairat
-Build-Jdk: 15.0.1
+Build-Jdk-Spec: 11
+Class-Path: lib/json-20160810.jar lib/jackson-core-2.9.9.jar lib/json-si
+ mple-1.1.1.jar lib/junit-4.10.jar lib/hamcrest-core-1.1.jar lib/javax.j
+ son-1.0.4.jar lib/tika-core-1.20.jar
+Main-Class: com.mobily.sms.Server
 Created-By: Maven Integration for Eclipse
 

@@ -6,22 +6,30 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="InitMQ"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="/Users/aymanalbokairat/untitled folder 3/mqsit_mqadapter_rel"/>
+			<item value="aymanalbokairat"/>
+			<item value="star"/>
+			<item value="mq.port"/>
+			<item value="resources"/>
+			<item value="jar-pl"/>
+			<item value="aymn"/>
+			<item value="class"/>
+			<item value="mqsit_mqutil_rel"/>
+			<item value="compiler"/>
+			<item value="StartServices"/>
+			<item value="json"/>
+			<item value="maven2"/>
 			<item value="InitMQ"/>
 			<item value="SSLContext"/>
-			<item value="Trustst"/>
-			<item value="Trusts"/>
-			<item value="trust"/>
-			<item value="trustStrategy&#x0A;"/>
-			<item value="rustStrategy&#x0A;"/>
-			<item value="getMQHandler"/>
 		</list>
 		<list key="replacehistory">
+			<item value="macbook/Desktop"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="822"/>
+		<item key="DIALOG_X_ORIGIN" value="734"/>
 		<item key="DIALOG_Y_ORIGIN" value="62"/>
 		<item key="DIALOG_WIDTH" value="292"/>
 		<item key="DIALOG_HEIGHT" value="402"/>

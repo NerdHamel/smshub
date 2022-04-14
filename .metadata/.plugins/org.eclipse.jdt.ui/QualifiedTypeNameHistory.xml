@@ -10,6 +10,6 @@
     <fullyQualifiedTypeName name="org.apache.tika.io.TikaInputStream"/>
     <fullyQualifiedTypeName name="org.apache.tika.metadata.Metadata"/>
     <fullyQualifiedTypeName name="javax.sound.sampled.AudioFormat.Encoding"/>
-    <fullyQualifiedTypeName name="vas.util.InitMQ"/>
     <fullyQualifiedTypeName name="vas.mq.util.ConstantsUtil"/>
+    <fullyQualifiedTypeName name="vas.util.InitMQ"/>
 </qualifiedTypeNameHistroy>
